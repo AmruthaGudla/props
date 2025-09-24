@@ -1,12 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Objective:** Learn how to pass data from parent to child using props.  
+- **Task:** Create a `Greeting` component that accepts a message from App.js.  
+- **Pseudo Code:**  
+Step 1: Create Greeting.js → accept props as parameter
+Step 2: Display props.message inside <h2>
+Step 3: In App.js → <Greeting message="Welcome to React!" />
+Step 4: Output displays "Welcome to React!"
+<img width="682" height="551" alt="Screenshot 2025-09-24 135809" src="https://github.com/user-attachments/assets/7ecff874-0260-4966-a251-f7475a92a5c8" />
